@@ -20,10 +20,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 public class CountPaths {
 
-	public static final boolean show_tree=false; 
-	
 	public static void main(String[] args) {
-		System.out.println("starting...");
 	    SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 		    try {
 		        SAXParser saxParser = saxParserFactory.newSAXParser();
@@ -46,20 +43,12 @@ public class CountPaths {
 			StringBuilder pathString = new StringBuilder(); 
 			for (String part : pathStack) {
 				pathString.append(part);
-				pathString.append(" / ");
+				pathString.append("/");
 			}
 			return pathString.toString();
 		}
-		String indent() {
-			StringBuilder sb = new StringBuilder();
-			for (int i=1; i<nest_level; i++) {
-				sb.append("    ");
-			}
-			return sb.toString();
-		}
 		
 		StringBuilder data = new StringBuilder();
-		int nest_level =0;
 			
 		public void startDocument() 
 				throws SAXException {
@@ -72,38 +61,45 @@ public class CountPaths {
 		public void startElement(String uri, String localName, String qname, Attributes attributes)
 				throws SAXException {
 			data = new StringBuilder();
-			nest_level++;
 			pathDirection = Direction.DOWN;
-			//System.out.println(indent(nest_level) + " Start: uri:" + uri + " localName:" + localName + " qname:" + qname);
-			if (show_tree) { System.out.println(indent() + qname); }
-			for (int i=0; i<attributes.getLength(); i++) {
-				System.out.println(attributes.getLocalName(i) + ":" + attributes.getValue(i) + "");				
+			StringBuilder sb = new StringBuilder();
+			sb.append(qname);	
+			if (attributes.getLength() > 0) {
+				sb.append("[");
+				for (int i=0; i<attributes.getLength(); i++) {
+					sb.append("@");
+					sb.append(attributes.getLocalName(i));
+					sb.append("='");
+					sb.append(attributes.getValue(i)); 
+					sb.append("'");				
+					if (attributes.getLength() > (i + 1)) { sb.append(" & "); }
+				}
+				sb.append("]");				
 			}
-			pathStack.addLast(qname);
+
+			
+			pathStack.addLast(sb.toString());
 		}
 		
 		public void endElement(String uri, String localName, String qname)
 				throws SAXException {
-			//System.out.println(indent(nest_level) + " End: uri:" + uri + " localName:" + localName + " qname:" + qname);
-			if (qname != "text" && data.length() > 0) {
-				if (show_tree) { System.out.println(indent() + "    " + data.toString()); 
+
+			if (pathDirection == Direction.DOWN ) {
+				if (data.length() > 0) { 
+					System.out.println(getPathString() + "\"" + data + "\"");
+				} else {
+					System.out.println(getPathString());
 				}
-			}
-			if (show_tree) { System.out.println(indent() + "/" + qname); }						
-			nest_level--;	
-		//pathStack.addLast("(" + qname + ")");
-//			System.out.println("XXX: " + qname);
-			data = new StringBuilder();
-			if (pathDirection == Direction.DOWN) { 
-				System.out.println(getPathString());
 			}
 			pathDirection = Direction.UP;				
 			pathStack.removeLast();
+			data = new StringBuilder();			
 		}
 		
 		public void characters(char ch[], int start, int length)
 		throws SAXException {
-			data.append(new String(ch, start, length));
+			String charData = new String(ch, start, length);		
+			data.append(charData.strip());
 		}
 	}
 }
