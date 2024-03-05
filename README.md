@@ -1,6 +1,18 @@
 # Count Paths
 Use a SAX parser to get events from an XML file and count them.  Can also do so in more detail by parsing out person IDs, dates and concepts.
 
+## Dependencies
+- Java 21 https://jdk.java.net/21/
+  - https://download.java.net/java/GA/jdk21.0.2/f2283984656d49d69e91c558476027ac/13/GPL/openjdk-21.0.2_macos-aarch64_bin.tar.gz
+  - sudo mv ~/Downloads/jdk-21.0.2.jdk /Library/Java/JavaVirtualMachines/openjdk21
+  - add the following to ~/.zprofile: export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk21/Contents/Home
+  - source the ~/.zprofile
+  - confirm the right version of java with unix> java --version
+- Maven
+  - brew install maven ?
+- Eclipse https://www.eclipse.org/downloads/
+  - Spring is nice, but not needed right away.
+
 ## Run
 - from eclipse...
 - from command line with Maven: mvn clean compile exec:java
