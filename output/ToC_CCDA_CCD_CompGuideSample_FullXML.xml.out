@@ -1,0 +1,909 @@
+ClinicalDocument/realmCode[@code='US']/
+ClinicalDocument/typeId[@root='2.16.840.1.113883.1.3' & @extension='POCD_HD000040']/
+ClinicalDocument/templateId[@root='2.16.840.1.113883.10.20.22.1.1']/
+ClinicalDocument/templateId[@root='2.16.840.1.113883.10.20.22.1.2']/
+ClinicalDocument/id[@extension='Test CCDA' & @root='1.1.1.1.1.1.1.1.1']/
+ClinicalDocument/code[@codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @code='34133-9' & @displayName='Summarization of Episode Note']/
+ClinicalDocument/title/"Primo Adult Health: Health Summary"
+ClinicalDocument/effectiveTime[@value='20121126000000-0000']/
+ClinicalDocument/confidentialityCode[@code='N' & @codeSystem='2.16.840.1.113883.5.25']/
+ClinicalDocument/languageCode[@code='en-US']/
+ClinicalDocument/recordTarget/patientRole/id[@extension='123-456-7890' & @root='2.16.840.1.113883.4.1']/
+ClinicalDocument/recordTarget/patientRole/addr[@use='HP']/streetAddressLine/"100 Marshall Lane"
+ClinicalDocument/recordTarget/patientRole/addr[@use='HP']/city/"Springfield"
+ClinicalDocument/recordTarget/patientRole/addr[@use='HP']/state/"VA"
+ClinicalDocument/recordTarget/patientRole/addr[@use='HP']/postalCode/"22153"
+ClinicalDocument/recordTarget/patientRole/addr[@use='HP']/country/"US"
+ClinicalDocument/recordTarget/patientRole/telecom[@value='tel:+1(571)555-0189' & @use='HP']/
+ClinicalDocument/recordTarget/patientRole/patient/name[@use='L']/given/"Nikolai"
+ClinicalDocument/recordTarget/patientRole/patient/name[@use='L']/family/"Bellic"
+ClinicalDocument/recordTarget/patientRole/patient/administrativeGenderCode[@code='M' & @codeSystem='2.16.840.1.113883.5.1' & @displayName='Male' & @codeSystemName='AdministrativeGender']/
+ClinicalDocument/recordTarget/patientRole/patient/birthTime[@value='19330316']/
+ClinicalDocument/recordTarget/patientRole/patient/maritalStatusCode[@code='M' & @displayName='Married' & @codeSystem='2.16.840.1.113883.5.2' & @codeSystemName='MaritalStatus']/
+ClinicalDocument/recordTarget/patientRole/patient/religiousAffiliationCode[@code='1041' & @displayName='Roman Catholic' & @codeSystem='2.16.840.1.113883.5.1076' & @codeSystemName='ReligiousAffiliation']/
+ClinicalDocument/recordTarget/patientRole/patient/raceCode[@code='2106-3' & @displayName='White' & @codeSystem='2.16.840.1.113883.6.238' & @codeSystemName='OMB Standards for Race and Ethnicity']/
+ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode[@code='2186-5' & @displayName='Not Hispanic or Latino' & @codeSystem='2.16.840.1.113883.6.238' & @codeSystemName='OMB Standards for Race and Ethnicity']/
+ClinicalDocument/recordTarget/patientRole/patient/languageCommunication/languageCode[@code='en']/
+ClinicalDocument/recordTarget/patientRole/patient/languageCommunication/modeCode[@code='ESP' & @displayName='Expressed spoken' & @codeSystem='2.16.840.1.113883.5.60' & @codeSystemName='LanguageAbilityMode']/
+ClinicalDocument/author/time[@value='20121126000000']/
+ClinicalDocument/author/assignedAuthor/id[@extension='12345' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/author/assignedAuthor/code[@code='207QA0505X' & @codeSystem='2.16.840.1.113883.6.101' & @displayName='Adult Medicine' & @codeSystemName='NUCC']/
+ClinicalDocument/author/assignedAuthor/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/author/assignedAuthor/addr/city/"Springfield"
+ClinicalDocument/author/assignedAuthor/addr/state/"VA"
+ClinicalDocument/author/assignedAuthor/addr/postalCode/"22150"
+ClinicalDocument/author/assignedAuthor/addr/country/"US"
+ClinicalDocument/author/assignedAuthor/telecom[@use='WP' & @value='tel:+1(571)555-0179;ext=221']/
+ClinicalDocument/author/assignedAuthor/assignedPerson/name/given/"Raymond"
+ClinicalDocument/author/assignedAuthor/assignedPerson/name/family/"Boccino"
+ClinicalDocument/author/assignedAuthor/assignedPerson/name/suffix/"MD"
+ClinicalDocument/dataEnterer/assignedEntity/id[@extension='678910' & @root='1.1.1.1.1.1.1.1.2']/
+ClinicalDocument/dataEnterer/assignedEntity/code[@code='364SA2200X' & @displayName='Adult Health' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC']/
+ClinicalDocument/dataEnterer/assignedEntity/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/dataEnterer/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/dataEnterer/assignedEntity/addr/state/"VA"
+ClinicalDocument/dataEnterer/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/dataEnterer/assignedEntity/addr/country/"US"
+ClinicalDocument/dataEnterer/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0179;ext=222']/
+ClinicalDocument/dataEnterer/assignedEntity/assignedPerson/name/given/"Mallory"
+ClinicalDocument/dataEnterer/assignedEntity/assignedPerson/name/family/"Bardas"
+ClinicalDocument/dataEnterer/assignedEntity/assignedPerson/name/suffix/"RN"
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/id[@root='1.1.1.1.1.1.1.1.2']/
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/name/"Primo Adult Health"
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0179']/
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/addr/city/"Springfield"
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/addr/state/"VA"
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/addr/postalCode/"22150"
+ClinicalDocument/custodian/assignedCustodian/representedCustodianOrganization/addr/country/"US"
+ClinicalDocument/informationRecipient/intendedRecipient/id[@extension='23456' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/informationRecipient/intendedRecipient/informationRecipient/name/given/"Bernard"
+ClinicalDocument/informationRecipient/intendedRecipient/informationRecipient/name/family/"Crane"
+ClinicalDocument/informationRecipient/intendedRecipient/informationRecipient/name/suffix/"MD"
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/name/"Springfield Geriatric Associates"
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0165']/
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/addr/streetAddressLine/"202 County Line Rd"
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/addr/city/"Springfield"
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/addr/state/"VA"
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/addr/postalCode/"22150"
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/addr/country/"US"
+ClinicalDocument/informationRecipient/intendedRecipient/receivedOrganization/standardIndustryClassCode[@code='207QG0300X' & @displayName='Geriatric Medicine' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC']/
+ClinicalDocument/legalAuthenticator/time[@value='20121126000000']/
+ClinicalDocument/legalAuthenticator/signatureCode[@code='S']/
+ClinicalDocument/legalAuthenticator/assignedEntity/id[@extension='12345' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/legalAuthenticator/assignedEntity/code[@code='207QA0505X' & @codeSystem='2.16.840.1.113883.6.101' & @displayName='Adult Medicine' & @codeSystemName='NUCC']/
+ClinicalDocument/legalAuthenticator/assignedEntity/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/legalAuthenticator/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/legalAuthenticator/assignedEntity/addr/state/"VA"
+ClinicalDocument/legalAuthenticator/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/legalAuthenticator/assignedEntity/addr/country/"US"
+ClinicalDocument/legalAuthenticator/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0179;ext=221']/
+ClinicalDocument/legalAuthenticator/assignedEntity/assignedPerson/name/given/"Raymond"
+ClinicalDocument/legalAuthenticator/assignedEntity/assignedPerson/name/family/"Boccino"
+ClinicalDocument/legalAuthenticator/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/addr/streetAddressLine/"100 Marshall Lane"
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/addr/city/"Springfield"
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/addr/state/"VA"
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/addr/postalCode/"22153"
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/addr/country/"US"
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/telecom[@value='tel:+1(571)555-0189']/
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/associatedPerson/name/given/"Kathleen"
+ClinicalDocument/participant[@typeCode='IND']/associatedEntity[@classCode='PRS']/associatedPerson/name/family/"McReary"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/effectiveTime/low[@value='19330316']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/effectiveTime/high[@value='20121126']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/id[@extension='34567' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/code[@code='207RC0000X' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC' & @displayName='Cardiovascular Disease']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/streetAddressLine/"209 County Line Rd"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/state/"VA"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0155']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/given/"Dwayne"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/family/"Forge"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/functionCode[@code='PCP' & @displayName='Primary Care Physician' & @codeSystem='2.16.840.1.113883.5.88' & @codeSystemName='participationFunction']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/id[@extension='12345' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/code[@code='207QA0505X' & @codeSystem='2.16.840.1.113883.6.101' & @displayName='Adult Medicine' & @codeSystemName='NUCC']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/state/"VA"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/addr/country/"US"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0179;ext=221']/
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/given/"Raymond"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/family/"Boccino"
+ClinicalDocument/documentationOf/serviceEvent[@classCode='PCPR']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/componentOf/encompassingEncounter/id[@root='8d2f5ec8-7356-4740-b6d7-6c29419ad956']/
+ClinicalDocument/componentOf/encompassingEncounter/effectiveTime/low[@value='201211261400']/
+ClinicalDocument/componentOf/encompassingEncounter/effectiveTime/high[@value='201211261436']/
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/id[@extension='12345' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/code[@code='207QA0505X' & @codeSystem='2.16.840.1.113883.6.101' & @displayName='Adult Medicine' & @codeSystemName='NUCC']/
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/addr/state/"VA"
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/addr/country/"US"
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0179;ext=221']/
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/assignedPerson/name/given/"Raymond"
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/assignedPerson/name/family/"Boccino"
+ClinicalDocument/componentOf/encompassingEncounter/responsibleParty/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/id[@root='1.1.1.1.1.1.1.1.2']/
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/code[@code='261QP2300X' & @displayName='Primary Care' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC']/
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/location/name/"Primo Adult Health"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/location/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/location/addr/city/"Springfield"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/location/addr/state/"VA"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/location/addr/postalCode/"22150"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/location/addr/country/"US"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/id[@root='1.1.1.1.1.1.1.1.2']/
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/name/"Primo Adult Health"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0179']/
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/addr/streetAddressLine/"1400 Main Street Ste G"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/addr/city/"Springfield"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/addr/state/"VA"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/addr/postalCode/"22150"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/addr/country/"US"
+ClinicalDocument/componentOf/encompassingEncounter/location/healthCareFacility/serviceProviderOrganization/standardIndustryClassCode[@code='261QP2300X' & @displayName='Primary Care' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC']/
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.21']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='42348-3' & @displayName='Advance Directives' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/title/"ADVANCE DIRECTIVES"
+ClinicalDocument/component/structuredBody/component/section/text/paragraph/"No advance directives exist for this patient."
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.6.1']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='48765-2' & @codeSystem='2.16.840.1.113883.6.1']/
+ClinicalDocument/component/structuredBody/component/section/title/"ALLERGIES"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='allergy1']/"Allergy to Penicillin drugs"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='allergy2']/"Allergy to Bee Pollen"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.30']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/id[@root='200b7b4e-dcc2-47d2-8bce-2ce612dd4647']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/code[@code='48765-2' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='Allergies, adverse reactions, alerts']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='19600101']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.7']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='4a51d40f-db9f-414a-b7cf-d3c40c00835a']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='ASSERTION' & @codeSystem='2.16.840.1.113883.5.4']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@nullFlavor='UNK']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='416098002' & @displayName='drug allergy' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT']/originalText/reference[@value='#allergy1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/participant[@typeCode='CSM']/participantRole[@classCode='MANU']/playingEntity[@classCode='MMAT']/code[@code='70618' & @displayName='Penicillin' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm']/originalText/reference[@value='#allergy1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.9']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='0506c036-adfb-4e6e-b9e1-eea76177ead5']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='ASSERTION' & @codeSystem='2.16.840.1.113883.5.4']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#allergy1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='19600101']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='404640003' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Dizziness']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.8']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='SEV' & @xsi:type='CE' & @codeSystem='2.16.840.1.113883.5.4' & @codeSystemName='ActCode']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#allergy1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='6736007' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='moderate']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.30']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/id[@root='1857d9c8-b58f-43ef-adef-7b2999c92f5e']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/code[@code='48765-2' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='Allergies, adverse reactions, alerts']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='19400101']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.7']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='6af77782-e02b-41b5-b81f-9699432a3e1b']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='ASSERTION' & @codeSystem='2.16.840.1.113883.5.4']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@nullFlavor='UNK']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='419199007' & @displayName='allergy to substance' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT']/originalText/reference[@value='#allergy2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/participant[@typeCode='CSM']/participantRole[@classCode='MANU']/playingEntity[@classCode='MMAT']/code[@code='3729L8MA2C' & @displayName='Bee Pollen' & @codeSystem='2.16.840.1.113883.4.9' & @codeSystemName='UNII']/originalText/reference[@value='#allergy2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.9']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='8a07406a-78e7-4484-b0f6-f8ad522cb36e']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='ASSERTION' & @codeSystem='2.16.840.1.113883.5.4']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#allergy2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='19400101']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='417516000' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Anaphylaxis due to substance']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.8']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='SEV' & @xsi:type='CE' & @codeSystem='2.16.840.1.113883.5.4' & @codeSystemName='ActCode']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#allergy2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='MFST' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='24484000' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='severe']/
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.12']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='29299-5' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='REASON FOR VISIT']/
+ClinicalDocument/component/structuredBody/component/section/title/"REASON FOR VISIT"
+ClinicalDocument/component/structuredBody/component/section/text/paragraph/"Recent falls"
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.15']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='10157-6' & @displayName='Family History' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/title/"FAMILY HISTORY"
+ClinicalDocument/component/structuredBody/component/section/text/paragraph/"Non-contributory"
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.14']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='47420-5' & @codeSystem='2.16.840.1.113883.6.1']/
+ClinicalDocument/component/structuredBody/component/section/title/"FUNCTIONAL STATUS"
+ClinicalDocument/component/structuredBody/component/section/text/"Difficulty remembering dates. Patient uses cane for walking."
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.2.1']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='11369-6' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='History of immunizations']/
+ClinicalDocument/component/structuredBody/component/section/title/"IMMUNIZATIONS"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='immunization1']/"Influenza, seasonal, injectable, preservative free"
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@moodCode='EVN' & @classCode='SBADM' & @negationInd='true']/templateId[@root='2.16.840.1.113883.10.20.22.4.52']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@moodCode='EVN' & @classCode='SBADM' & @negationInd='true']/id[@root='b82150ba-bc2f-47a2-947c-930e3b4a3a5b']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@moodCode='EVN' & @classCode='SBADM' & @negationInd='true']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@moodCode='EVN' & @classCode='SBADM' & @negationInd='true']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@moodCode='EVN' & @classCode='SBADM' & @negationInd='true']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.54']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@moodCode='EVN' & @classCode='SBADM' & @negationInd='true']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='140' & @displayName='Influenza, seasonal, injectable, preservative free' & @codeSystem='2.16.840.1.113883.12.292' & @codeSystemName='Vaccines administered (CVX)']/originalText/reference[@value='#immunization1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@moodCode='EVN' & @classCode='SBADM' & @negationInd='true']/consumable/manufacturedProduct[@classCode='MANU']/manufacturerOrganization/name/"Influenza Vaccine Company"
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.45']/
+ClinicalDocument/component/structuredBody/component/section/id[@root='184fdbe3-f480-4199-976d-e0bb0dd02551']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='69730-0' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemVersion='LOINC' & @displayName='Instructions']/
+ClinicalDocument/component/structuredBody/component/section/title/"INSTRUCTIONS"
+ClinicalDocument/component/structuredBody/component/section/text/paragraph/"Patient is to schedule follow-up appointment with PCP after consultation."
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.1.1']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='10160-0' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='HISTORY OF MEDICATION USE']/
+ClinicalDocument/component/structuredBody/component/section/title/"MEDICATIONS"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication1']/"Lisinopril - 20mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication2']/"Lasix - 40mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication3']/"K-Dur - 10mEq/L by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication4']/"Norvasc - 10mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication5']/"Zocor - 40mg by mouth once daily before bed"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication6']/"Lantus - 36 units once daily before bed"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication7']/"gliburide - 2.5mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication8']/"synthroid - 0.1mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication9']/"Aleve - 220mg by mouth twice daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication10']/"Ultram - 50mg by mouth four times daily as needed for joint pain"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication11']/"Aspirin - 81mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication12']/"Lopressor - 50mg by mouth twice daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication13']/"Flomax - 0.4mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication14']/"Proscar - 5mg by mouth once daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication15']/"Neurontin - 300mg by mouth three times daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication16']/"Ativan - 1mg by mouth three times daily as needed for irritability"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication17']/"miodarone - 200mg by mouth two times daily"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication18']/"Coumadin - 5mg by mouth every other day starting 11/1/2012"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication19']/"Coumadin - 2.5mg by mouth every other day starting 11/2/2012"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='medication20']/"Ambien - 5mg by mouth once daily before bed"
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='f51687b3-19dc-445d-a3aa-8d756276c89f']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='314077' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Lisinopril 20 MG Oral Tablet']/originalText/reference[@value='#medication1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='23581045-ee58-4a16-9a4c-d722a43d93f8']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication2']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='313988' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Furosemide 40 MG Oral Tablet']/originalText/reference[@value='#medication2']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='becaa0c7-7916-4de3-b7cd-1b8be342087d']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication3']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42927' & @displayName='TABLET, EXTENDED RELEASE' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='706459' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='K-Dur 10 MEQ Extended Release Tablet']/originalText/reference[@value='#medication3']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='f9fa3786-a767-4ca8-add4-72b61347aa0f']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication4']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='308135' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Amlodipine 10 MG Oral Tablet']/originalText/reference[@value='#medication4']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='4a55ddeb-5aa6-47f0-b455-da9b5f7f9c75']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication5']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='EIVL_TS' & @operator='A']/event[@code='HS']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='198211' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Simvastatin 40 MG Oral Tablet']/originalText/reference[@value='#medication5']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='e146441f-d8db-451b-9b0a-b95d19da358a']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication6']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='EIVL_TS' & @operator='A']/event[@code='HS']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38299' & @displayName='SUBCUTANEOUS' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='0.36' & @unit='ml']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42945' & @displayName='INJECTION, SOLUTION' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='311041' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Insulin Glargine 100 UNT/ML Injectable Solution']/originalText/reference[@value='#medication6']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='2f673e36-79de-45a3-ae20-321e561d41f5']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication7']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='861748' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='glyBURIDE 2.5 MG / metFORMIN hydrochloride 500 MG Oral Tablet']/originalText/reference[@value='#medication7']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='a47c03f4-7930-40cd-ad06-8ab82537c706']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication8']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='892246' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Levothyroxine Sodium 0.1 MG Oral Tablet']/originalText/reference[@value='#medication8']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='65fa772c-188d-489f-8f1a-1b5e8db732b3']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication9']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='12' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='1112231' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Naproxen sodium 220 MG Oral Capsule']/originalText/reference[@value='#medication9']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='cced9bbd-0aa1-4826-95ce-ca446d5fd16e']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication10']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='6' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='835603' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='traMADol hydrochloride 50 MG Oral Tablet']/originalText/reference[@value='#medication10']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/templateId[@root='2.16.840.1.113883.10.20.22.4.20']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/code[@code='967006' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Medication Education']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/text/reference[@value='#medication10']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='f480e2a8-76ff-475c-95b9-effbabeff36b']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication11']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='308416' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Aspirin 81 MG Enteric Coated Tablet']/originalText/reference[@value='#medication11']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='6dc89300-ff31-486b-b862-060c16517d60']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication12']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='12' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='866514' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Metoprolol Tartrate 50 MG Oral Tablet']/originalText/reference[@value='#medication12']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='87386f99-3730-492c-8d4a-c52233f6551c']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication13']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='863671' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Flomax 0.4 MG Oral Capsule']/originalText/reference[@value='#medication13']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='7005d27f-cd00-43e4-b980-ff3fa65012b4']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication14']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='24' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='201961' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Proscar 5 MG Oral Tablet']/originalText/reference[@value='#medication14']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='5f14d454-1af7-44c8-9bb8-c6226476b328']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication15']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='8' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='105029' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Neurontin 300 MG Oral Capsule']/originalText/reference[@value='#medication15']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='7546cefa-638c-4238-acc4-befe786a5c0c']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='8' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='197900' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Lorazepam 0.5 MG Oral Tablet']/originalText/reference[@value='#medication16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/templateId[@root='2.16.840.1.113883.10.20.22.4.20']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/code[@code='967006' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Medication Education']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/text/reference[@value='#medication16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ' & @inversionInd='true']/act[@classCode='ACT' & @moodCode='INT']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='308d05eb-a29d-4a59-a9ff-5936e09304ca']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication17']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @institutionSpecified='true' & @operator='A']/period[@value='12' & @unit='h']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='833530' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Cordarone 200 MG Oral Tablet']/originalText/reference[@value='#medication17']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='cd8215fd-a9d2-484d-86ad-2105272dc9c2']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication18']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @alignment='CD' & @operator='A']/phase/low[@value='20121101' & @inclusive='true']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @alignment='CD' & @operator='A']/period[@value='2' & @unit='d']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='855332' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Warfarin Sodium 5 MG Oral Tablet']/originalText/reference[@value='#medication18']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='eba0c8b5-098d-4e0b-aaca-f47e54ab0d4e']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication19']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @alignment='CD' & @operator='A']/phase/low[@value='20121102' & @inclusive='true']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='PIVL_TS' & @alignment='CD' & @operator='A']/period[@value='2' & @unit='d']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='855312' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Warfarin Sodium 2.5 MG Oral Tablet']/originalText/reference[@value='#medication19']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.16']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/id[@root='15402969-f45c-4723-b4cd-e5a1e7c7075c']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/text/reference[@value='#medication20']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='20121101']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='20121231']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/effectiveTime[@xsi:type='EIVL_TS' & @operator='A']/event[@code='HS']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/routeCode[@code='C38288' & @displayName='oral' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/doseQuantity[@value='1']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/administrationUnitCode[@code='C42998' & @displayName='tablet' & @codeSystem='2.16.840.1.113883.3.26.1.1' & @codeSystemName='NCI Thesaurus']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/templateId[@root='2.16.840.1.113883.10.20.22.4.23']/
+ClinicalDocument/component/structuredBody/component/section/entry/substanceAdministration[@classCode='SBADM' & @moodCode='EVN']/consumable/manufacturedProduct[@classCode='MANU']/manufacturedMaterial/code[@code='854878' & @codeSystem='2.16.840.1.113883.6.88' & @codeSystemName='RxNorm' & @displayName='Ambien 5 MG Oral Tablet']/originalText/reference[@value='#medication20']/
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.10']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='18776-5' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='Treatment plan']/
+ClinicalDocument/component/structuredBody/component/section/title/"PLAN OF CARE"
+ClinicalDocument/component/structuredBody/component/section/text/paragraph/"I have discussed this request for geriatric assessment and management with the patient who agrees with this plan."
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.5.1']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='11450-4' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='PROBLEM LIST']/
+ClinicalDocument/component/structuredBody/component/section/title/"PROBLEMS"
+ClinicalDocument/component/structuredBody/component/section/text/content[@ID='problems']/
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem1']/"Hypertension"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem2']/"Hyperlipidemia"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem3']/"Type II Diabetes"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem4']/"Chronic Kidney Disease Stage III"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem5']/"Hypothyroidism"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem6']/"Coronary Artery Disease"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem7']/"Benign prostatic hyperplasia"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem8']/"Atrial fibrillation"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem9']/"Diabetic neuropathy"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem10']/"Generalized obesity"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='problem11']/"Insomnia"
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='9ca4cb51-5340-4c7b-a7c0-7ce0f58145b2']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20050501']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='84a64e5c-eeff-4447-95b5-a0b754967ab7']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem1']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20050501']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='5962100' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Essential Hypertension']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='9464c61e-91eb-4abf-9a5c-cb8811151f2a']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20050501']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='93f6e544-1d11-45cd-b760-cabeb40f5be0']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem2']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20050501']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='5582204' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Hyperlipidemia']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='ac6fa398-0388-4565-ae8d-e3d69590e18b']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20081101']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='904b119d-a238-4cb9-8e7a-71d5ea268456']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20081101']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='44054006' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Diabetes Mellitus Type II ']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='c5354465-bc7d-4968-9fea-67d659a3f389']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20090101']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='4a658e81-3d8e-4980-bc33-4af1b5c65a0e']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20090101']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='433144002' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Chronic Kidney Disease Stage III']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='16e90bd4-3954-44fd-a447-5df452d1171a']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20061101']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='cc1308af-6bca-4ea7-8236-6fd115753b2f']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem5']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20061101']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='40930008' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Hypothyroidism']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='5e6ba7f7-cba3-4dc2-a230-b3991d6501cc']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20090701']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='d207239d-bfed-4629-9e4d-af4a07265e71']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem6']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20090701']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='8957000' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Coronary Artery Disease']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='3c291b2b-3360-4f3e-abcd-57e20c1a6649']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20080401']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='ff4f72a1-75dd-4925-8efc-a1200ef286cd']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem7']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20080401']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='266569009' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Benign prostatic hyperplasia']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='3eb6b661-70ea-403c-8914-c1f0fab8194e']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20100901']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='b5f9f547-0e8c-452a-963b-cdf38957fde8']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem8']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20100901']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='49436004' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Atrial fibrillation']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='5f2f322f-649c-45af-978f-373cd986423b']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20060601']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='dc71710b-0f34-4f85-bd31-fc2b25697d91']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem9']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20060601']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='230572002' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Diabetic neuropathy']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='48537548-690d-446b-9466-10226f264335']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='19971001']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='1458ebb0-5af1-45be-b7a4-fc3c13d9e36d']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem10']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='19971001']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='238134004' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Generalized obesity']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/id[@root='a8a96a61-1883-4873-b2fd-c53bbb25f5bc']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/code[@code='CONC' & @codeSystem='2.16.840.1.113883.5.6' & @displayName='Concern']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/statusCode[@code='active']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/effectiveTime/low[@value='20110901']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='c0c1aae1-c9fd-4287-bb3a-7fb79c6f27f5']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='64572001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Condition']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#problem11']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='20110901']/
+ClinicalDocument/component/structuredBody/component/section/entry/act[@classCode='ACT' & @moodCode='EVN']/entryRelationship[@typeCode='SUBJ']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='193462001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='Insomnia']/
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.7.1']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='47519-4' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='HISTORY OF PROCEDURES']/
+ClinicalDocument/component/structuredBody/component/section/title/"PROCEDURES"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='procedure1']/"EKG (2012/10/15)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='procedure2']/"Cholecystectomy (2006/06/01)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='procedure3']/"Cataract Removal (2004/02/01)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='procedure4']/"Angioplasty with Stent Placement (2002/08/01)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='procedure5']/"Coronary Bypass (1997/11/01)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='procedure6']/"Total Knee Arthroplasty (1997/03/01)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='procedure7']/"Tonsillectomy (1944)"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.14']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/id[@root='ff23c225-e011-486a-a807-c2a6e572ecf7']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/code[@xsi:type='CE' & @code='49038010' & @codeSystem='2.16.840.1.113883.6.96' & @displayName='EKG' & @codeSystemName='SNOMED CT']/originalText/reference[@value='#procedure1']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/low[@value='201210151430']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime[@xsi:type='IVL_TS']/high[@value='201210151455']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/id[@extension='34567' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/code[@code='207RC0000X' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC' & @displayName='Cardiovascular Disease']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/streetAddressLine/"209 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0155']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/given/"Dwayne"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/family/"Forge"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/id[@root='1.1.1.1.1.1.1.1.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/name/"Open Heart Associates"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0155']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/streetAddressLine/"209 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.14']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/id[@root='97502608-440c-4ec1-9d8a-329a6ae11ac0']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/code[@xsi:type='CE' & @code='47600' & @codeSystem='2.16.840.1.113883.6.12' & @displayName='CHOLECYSTECTOMY' & @codeSystemName='CPT4']/originalText/reference[@value='#procedure2']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime/center[@value='20060601']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/id[@extension='56789' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/streetAddressLine/"422 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0138']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/given/"Philip"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/family/"Bell"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/id[@root='1.1.1.1.1.1.1.1.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/name/"Digestive Associates"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0138']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/streetAddressLine/"422 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.14']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/id[@root='76be3bd8-b3cc-48cf-bb78-ecccd4cb5353']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/code[@xsi:type='CE' & @code='66983' & @codeSystem='2.16.840.1.113883.6.12' & @displayName='ICAPSULAR CATARACT XTRJ INSJ IO LENS PRSTH 1 STG' & @codeSystemName='CPT4']/originalText/reference[@value='#procedure3']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime/center[@value='20040201']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/id[@extension='45678' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/streetAddressLine/"310 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0149']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/given/"Marybeth"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/family/"Choy"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/suffix/"OD"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/id[@root='1.1.1.1.1.1.1.1.5']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/name/"Vision Institute"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0149']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/streetAddressLine/"310 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.14']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/id[@root='8adde4fa-20ae-4db5-a5cb-9942f0695c76']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/code[@xsi:type='CE' & @code='37205' & @codeSystem='2.16.840.1.113883.6.12' & @displayName='TCAT PLMT IV STENT PERCUTANEOUS 1ST VESSEL' & @codeSystemName='CPT4']/originalText/reference[@value='#procedure4']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime/center[@value='20020801']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/id[@extension='34567' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/code[@code='207RC0000X' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC' & @displayName='Cardiovascular Disease']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/streetAddressLine/"209 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0155']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/given/"Dwayne"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/family/"Forge"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/id[@root='1.1.1.1.1.1.1.1.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/name/"Open Heart Associates"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0155']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/streetAddressLine/"209 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.14']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/id[@root='7f12ca52-8632-4559-a994-8701722cb01b']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/code[@xsi:type='CE' & @code='33512' & @codeSystem='2.16.840.1.113883.6.12' & @displayName='CORONARY ARTERY BYPASS 3 CORONARY VENOUS GRAFTS' & @codeSystemName='CPT4']/originalText/reference[@value='#procedure5']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime/center[@value='19971101']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/id[@extension='34567' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/code[@code='207RC0000X' & @codeSystem='2.16.840.1.113883.6.101' & @codeSystemName='NUCC' & @displayName='Cardiovascular Disease']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/streetAddressLine/"209 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/telecom[@use='WP' & @value='tel:+1(571)555-0155']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/given/"Dwayne"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/family/"Forge"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/assignedPerson/name/suffix/"MD"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/id[@root='1.1.1.1.1.1.1.1.3']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/name/"Open Heart Associates"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/telecom[@use='WP' & @value='tel:+1(571)555-0155']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/streetAddressLine/"209 County Line Rd"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/city/"Springfield"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/state/"VA"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/performer[@typeCode='PRF']/assignedEntity/representedOrganization/addr/postalCode/"22150"
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.14']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/id[@root='a85eaf98-3129-4b2a-b5c2-ebcdf6efe10f']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/code[@xsi:type='CE' & @code='27447' & @codeSystem='2.16.840.1.113883.6.12' & @displayName='ARTHRP KNE CONDYLE+PLATU MEDIAL+LAT COMPARTMENTS' & @codeSystemName='CPT4']/originalText/reference[@value='#procedure6']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime/center[@value='19970301']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.14']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/id[@root='71dcc9c7-c08e-40bf-b029-75b111215701']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/code[@xsi:type='CE' & @code='42825' & @codeSystem='2.16.840.1.113883.6.12' & @displayName='TONSILLECTOMY ONE-HALF UNDER AGE 12' & @codeSystemName='CPT4']/originalText/reference[@value='#procedure7']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/procedure[@classCode='PROC' & @moodCode='EVN']/effectiveTime/center[@value='1994']/
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='1.3.6.1.4.1.19376.1.5.3.1.3.1']/
+ClinicalDocument/component/structuredBody/component/section/code[@codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @code='42349-1' & @displayName='REASON FOR REFERRAL']/
+ClinicalDocument/component/structuredBody/component/section/title/"REASON FOR REFERRAL"
+ClinicalDocument/component/structuredBody/component/section/text/paragraph/"Geriatric assessment and management for concerns about dementia and falling"
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.3.1']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='30954-2' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='RESULTS']/
+ClinicalDocument/component/structuredBody/component/section/title/"RESULTS"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='result1']/"TSH - 6 m[IU]/L (abnormal, high alert)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='result2']/"Hgb a1c - 8% (abnormal, high alert)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='result3']/"Creatinine - 1.5 mg/dL (abnormal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='result4']/"INR - 3.5 (abnormal, high alert)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='result5']/"Echo EF - 55% (normal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='result6']/"Aortic Valve - 1.5 cm2, Stage II diastolic dysfunction (abnormal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='result7']/"EKG Impression - EKG rate 60s, A fib, LBBB"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/id[@root='ce19d2be-3d3b-44ea-95f1-5a0a04586377']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/code[@code='11579-0' & @displayName='Thyrotropin [Units/volume] in Serum or Plasma by Detection limit less than or equal to 0.05 mIU/L' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='1331eea1-3efe-497e-96bc-de56796a253d']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/code[@xsi:type='CE' & @code='3016-3' & @displayName='Thyrotropin [Units/volume] in Serum or Plasma' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#result1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='PQ' & @value='6' & @unit='m[IU]/L']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='A' & @displayName='abnormal' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='HH' & @displayName='high alert' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/referenceRange/observationRange/text/"normal: 0.29–5.11 IU/ml"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/id[@root='ce19d2be-3d3b-44ea-95f1-5a0a04586377']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/code[@code='4548-4' & @displayName='Hemoglobin A1c/Hemoglobin.total in Blood' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='dc16a671-c8f7-4125-a3f6-c8787606f576']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/code[@xsi:type='CE' & @code='4548-4' & @displayName='Hemoglobin A1c/Hemoglobin.total in Blood' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#result2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='PQ' & @value='8' & @unit='%']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='A' & @displayName='abnormal' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='HH' & @displayName='high alert' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/referenceRange/observationRange/text/"normal: 4.0-5.6%"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/id[@root='ce19d2be-3d3b-44ea-95f1-5a0a04586377']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/code[@code='2160-0' & @displayName='Creatinine [Mass/volume] in Serum or Plasma' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='9cd43fa7-db31-4c29-ab30-83f92fdcaa20']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/code[@xsi:type='CE' & @code='2160-0' & @displayName='Creatinine [Mass/volume] in Serum or Plasma' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#result3']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='PQ' & @value='1.5' & @unit='mg/dL']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='A' & @displayName='abnormal' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/referenceRange/observationRange/text/"normal: below 1.5 mg/dL"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/id[@root='ce19d2be-3d3b-44ea-95f1-5a0a04586377']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/code[@code='6301-6' & @displayName='INR in Platelet poor plasma by Coagulation assay' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='78df60b1-daf7-4838-b509-ec3a3f4116c1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/code[@xsi:type='CE' & @code='6301-6' & @displayName='INR in Platelet poor plasma by Coagulation assay' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#result4']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='PQ' & @value='1.5' & @unit='1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='A' & @displayName='abnormal' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='HH' & @displayName='high alert' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/referenceRange/observationRange/text/"Normal reference range 1.0-1.5; Targeted INR 2.0-3.0"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/id[@root='ce19d2be-3d3b-44ea-95f1-5a0a04586377']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/code[@code='34552-0' & @displayName='2D echocardiogram panel' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='aaa00f9e-0154-4eaa-be85-aeb34169f06a']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/code[@xsi:type='CE' & @code='18041-4' & @displayName='Aortic valve Ejection [Time] by US.doppler' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#result5']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='PQ' & @value='55' & @unit='%']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='N' & @displayName='normal' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/referenceRange/observationRange/text/"Normal: 50-75%"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='347f958c-9b6b-4eeb-848d-624567117cb7']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/code[@xsi:type='CE' & @code='18089-3' & @displayName='AV Orifice Area US' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#result6']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='PQ' & @value='1.5' & @unit='cm2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/interpretationCode[@code='A' & @displayName='abnormal' & @codeSystem='2.16.840.1.113883.5.83' & @codeSystemName='ObservationInterpretation']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/referenceRange/observationRange/text/"Normal (3.0-4.0 cm2), mild (1.5–2.0 cm2), moderate (1.0–1.5 cm2), severe (less than 1.0 cm2)"
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.1']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/id[@root='ce19d2be-3d3b-44ea-95f1-5a0a04586377']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/code[@code='34534-8' & @displayName='EKG 12 channel panel' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.2']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='ba4f85fa-586c-4898-9aad-b592d4c2c383']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/code[@xsi:type='CE' & @code='18844-1' & @displayName='EKG impression Narrative' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/text/reference[@value='#result7']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime[@value='20121126']/
+ClinicalDocument/component/structuredBody/component/section/entry[@typeCode='DRIV']/organizer[@classCode='BATTERY' & @moodCode='EVN']/component/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='ST']/"EKG rate 60s, A fib, LBBB"
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.17']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='29762-2' & @codeSystem='2.16.840.1.113883.6.1' & @displayName='Social History']/
+ClinicalDocument/component/structuredBody/component/section/title/"SOCIAL HISTORY"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='sochist1']/"50 pack year smoking history, quit 1997"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='sochist2']/"etoh (alcohol) daily, patient reports varies from 1 to many cocktails per day"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='sochist3']/"denies sexual activity due to impotence"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='sochist4']/"retired corporate executive"
+ClinicalDocument/component/structuredBody/component/section/entry/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.22.4.78']/
+ClinicalDocument/component/structuredBody/component/section/entry/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='ASSERTION' & @codeSystem='2.16.840.1.113883.5.4']/
+ClinicalDocument/component/structuredBody/component/section/entry/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+ClinicalDocument/component/structuredBody/component/section/entry/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@nullFlavor='ASKU']/
+ClinicalDocument/component/structuredBody/component/section/entry/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/high[@value='1997']/
+ClinicalDocument/component/structuredBody/component/section/entry/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='8517006' & @displayName='former smoker' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT']/
+ClinicalDocument/component/structuredBody/component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.4']/
+ClinicalDocument/component/structuredBody/component/section/code[@code='8716-3' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='VITAL SIGNS']/
+ClinicalDocument/component/structuredBody/component/section/title/"VITAL SIGNS"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='vit1']/"Height - 70 in (normal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='vit2']/"Weight - 220 lb_en (normal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='vit3']/"BMI - 31.56 kg/m2 (normal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='vit4']/"BP Systolic - 175 mmHg (normal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='vit5']/"BP Diastolic - 90 mmHg (normal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='vit6']/"Heart Rate - 90 mmHg (normal)"
+ClinicalDocument/component/structuredBody/component/section/text/list[@listType='ordered']/item/content[@ID='vit7']/"Body Temp - 97.9 degF (normal)"

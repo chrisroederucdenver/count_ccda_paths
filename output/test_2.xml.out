@@ -1,0 +1,22 @@
+component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.22.1' & @extension='2015-08-01']/
+component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.22.1']/
+component/section/code[@code='46240-8' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='History of encounters']/
+component/section/title/"ENCOUNTERS"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.49' & @extension='2015-08-01']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.49']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/id[@root='2a620155-9d11-439e-92b3-5d9815ff4de8']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/code[@code='99221' & @displayName='Initial hospital care...hospital floor or unit.' & @codeSystemName='CPT-4' & @codeSystem='2.16.840.1.113883.6.12']/originalText/reference[@value='#Encounter1_Type']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/effectiveTime[@value='201209271300-0500']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/sdtc:dischargeDispositionCode[@code='04' & @codeSystem='2.16.840.1.113883.12.112' & @codeSystemName='HL7 Discharge Disposition' & @displayName='Discharged/transferred to an intermediate-care facility (ICF)']/originalText/reference[@value='#Encounter1_DischargedDispositionCode']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/sdtc:dischargeDispositionCode[@code='04' & @codeSystem='2.16.840.1.113883.12.112' & @codeSystemName='HL7 Discharge Disposition' & @displayName='Discharged/transferred to an intermediate-care facility (ICF)']/translation[@code='HOSSVR' & @codeSystem='2.16.840.1.113883.19.5' & @codeSystemName='Community Medical Center Local Discharge Codes' & @displayName='SUNNYVIEW REHAB HOSPITAL']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/performer/assignedEntity/id[@extension='333444555' & @root='2.16.840.1.113883.4.6']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/performer/assignedEntity/code[@code='59058001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='General physician']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/templateId[@root='2.16.840.1.113883.10.20.22.4.32']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/code[@code='1060-3' & @codeSystem='2.16.840.1.113883.6.259' & @codeSystemName='HL7 HealthcareServiceLocation' & @displayName='Medical Ward']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/streetAddressLine/"1007 Health Drive"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/city/"Portland"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/state/"OR"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/postalCode/"99123"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/country/"US"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/telecom[@use='WP' & @value='tel: +1(555)555-1030']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/playingEntity[@classCode='PLC']/name/"Community Medical Center"

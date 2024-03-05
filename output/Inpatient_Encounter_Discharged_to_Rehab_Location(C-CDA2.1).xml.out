@@ -1,0 +1,51 @@
+component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.22.1' & @extension='2015-08-01']/
+component/section/templateId[@root='2.16.840.1.113883.10.20.22.2.22.1']/
+component/section/code[@code='46240-8' & @codeSystem='2.16.840.1.113883.6.1' & @codeSystemName='LOINC' & @displayName='History of encounters']/
+component/section/title/"ENCOUNTERS"
+component/section/text/table[@border='1' & @width='100%']/thead/tr/th/"Encounter"
+component/section/text/table[@border='1' & @width='100%']/thead/tr/th/"Performer"
+component/section/text/table[@border='1' & @width='100%']/thead/tr/th/"Location"
+component/section/text/table[@border='1' & @width='100%']/thead/tr/th/"Date"
+component/section/text/table[@border='1' & @width='100%']/thead/tr/th/"Discharge Disposition"
+component/section/text/table[@border='1' & @width='100%']/thead/tr/th/"Location"
+component/section/text/table[@border='1' & @width='100%']/tbody/tr[@id='Encounter1']/td[@id='Encounter1_Type']/"Inpatient Hospital Care - moderate complexity"
+component/section/text/table[@border='1' & @width='100%']/tbody/tr[@id='Encounter1']/td/"Performer Name"
+component/section/text/table[@border='1' & @width='100%']/tbody/tr[@id='Encounter1']/td/"Community Medical Center"
+component/section/text/table[@border='1' & @width='100%']/tbody/tr[@id='Encounter1']/td/"September 27, 2012 at 1:00pm"
+component/section/text/table[@border='1' & @width='100%']/tbody/tr[@id='Encounter1']/td[@id='Encounter1_DischargeDispositionCode']/"Discharged/transferred to an intermediate-care facility (ICF)"
+component/section/text/table[@border='1' & @width='100%']/tbody/tr[@id='Encounter1']/td[@id='Encounter1_DischargedToLoc']/"Sunnyview Rehab Hospital"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.49' & @extension='2015-08-01']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.49']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/id[@root='2a620155-9d11-439e-92b3-5d9815ff4de8']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/code[@code='99221' & @displayName='Initial hospital care, per day, for the evaluation and management of a patient, which requires these 3 key components: A detailed or comprehensive history; A detailed or comprehensive examination; and Medical decision making that is straightforward or of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the problem(s) requiring admission are of low severity. Typically, 30 minutes are spent at the bedside and on the patient's hospital floor or unit.' & @codeSystemName='CPT-4' & @codeSystem='2.16.840.1.113883.6.12']/originalText/reference[@value='#Encounter1_Type']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/text/reference[@value='#Encounter1']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/effectiveTime[@value='201209271300-0500']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/sdtc:dischargeDispositionCode[@code='04' & @codeSystem='2.16.840.1.113883.12.112' & @codeSystemName='HL7 Discharge Disposition' & @displayName='Discharged/transferred to an intermediate-care facility (ICF)']/originalText/reference[@value='#Encounter1_DischargedDispositionCode']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/sdtc:dischargeDispositionCode[@code='04' & @codeSystem='2.16.840.1.113883.12.112' & @codeSystemName='HL7 Discharge Disposition' & @displayName='Discharged/transferred to an intermediate-care facility (ICF)']/translation[@code='HOSSVR' & @codeSystem='2.16.840.1.113883.19.5' & @codeSystemName='Community Medical Center Local Discharge Codes' & @displayName='SUNNYVIEW REHAB HOSPITAL']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/performer/assignedEntity/id[@extension='333444555' & @root='2.16.840.1.113883.4.6']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/performer/assignedEntity/code[@code='59058001' & @codeSystem='2.16.840.1.113883.6.96' & @codeSystemName='SNOMED CT' & @displayName='General physician']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/templateId[@root='2.16.840.1.113883.10.20.22.4.32']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/code[@code='1060-3' & @codeSystem='2.16.840.1.113883.6.259' & @codeSystemName='HL7 HealthcareServiceLocation' & @displayName='Medical Ward']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/streetAddressLine/"1007 Health Drive"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/city/"Portland"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/state/"OR"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/postalCode/"99123"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/addr/country/"US"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/telecom[@use='WP' & @value='tel: +1(555)555-1030']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='LOC']/participantRole[@classCode='SDLOC']/playingEntity[@classCode='PLC']/name/"Community Medical Center"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/templateId[@root='2.16.840.1.113883.10.20.22.4.32']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/code[@code='1105-6' & @codeSystem='2.16.840.1.113883.6.259' & @codeSystemName='HL7 HealthcareServiceLocation' & @displayName='Chronic Rehabilitation Unit']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/addr/streetAddressLine/"200 Rehab Road"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/addr/city/"Portland"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/addr/state/"Ny"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/addr/postalCode/"19123"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/addr/country/"US"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/telecom[@use='WP' & @value='tel: +1(123)555-1030']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/participant[@typeCode='DST']/participantRole[@classCode='SDLOC']/playingEntity[@classCode='PLC']/name/"Sunnyview Rehab Hospital"
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/entryRelationship[@typeCode='RSON']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.19' & @extension='2014-06-09']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/entryRelationship[@typeCode='RSON']/observation[@classCode='OBS' & @moodCode='EVN']/templateId[@root='2.16.840.1.113883.10.20.22.4.19']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/entryRelationship[@typeCode='RSON']/observation[@classCode='OBS' & @moodCode='EVN']/id[@root='db734647-fc99-424c-a864-7e3cda82e703' & @extension='45665']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/entryRelationship[@typeCode='RSON']/observation[@classCode='OBS' & @moodCode='EVN']/code[@code='404684003' & @displayName='Clinical finding' & @codeSystemName='SNOMED-CT' & @codeSystem='2.16.840.1.113883.6.96']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/entryRelationship[@typeCode='RSON']/observation[@classCode='OBS' & @moodCode='EVN']/statusCode[@code='completed']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/entryRelationship[@typeCode='RSON']/observation[@classCode='OBS' & @moodCode='EVN']/effectiveTime/low[@value='201209251130-0500']/
+component/section/entry[@typeCode='DRIV']/encounter[@classCode='ENC' & @moodCode='EVN']/entryRelationship[@typeCode='RSON']/observation[@classCode='OBS' & @moodCode='EVN']/value[@xsi:type='CD' & @code='233604007' & @displayName='Pneumonia' & @codeSystem='2.16.840.1.113883.6.96']/
