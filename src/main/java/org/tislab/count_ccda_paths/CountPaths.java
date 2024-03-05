@@ -1,4 +1,4 @@
-package org.tislab.count_paths;
+package org.tislab.count_ccda_paths;
 
 import java.util.List;
 import java.io.File;
