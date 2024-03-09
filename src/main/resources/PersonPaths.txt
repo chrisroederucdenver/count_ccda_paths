@@ -1,0 +1,9 @@
+ClinicalDocument/recordTarget/patientRole/id[@extension='1' & @root='2.16.840.1.113883.4.6']/
+ClinicalDocument/recordTarget/patientRole/id[@extension='123-101-5230' & @root='2.16.840.1.113883.4.1']/
+ClinicalDocument/recordTarget/patientRole/patient/administrativeGenderCode[@code='F' & 
+@codeSystem='2.16.840.1.113883.5.1' & @displayName='Female']/
+ClinicalDocument/recordTarget/patientRole/patient/birthTime[@value='19470501']/
+ClinicalDocument/recordTarget/patientRole/patient/raceCode[@code='2106-3' & @displayName='White' & 
+@codeSystem='2.16.840.1.113883.6.238' & @codeSystemName='Race and Ethnicity - CDC']/
+ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode[@code='2186-5' & @displayName='Not 
+Hispanic or Latino' & @codeSystem='2.16.840.1.113883.6.238' & @codeSystemName='Race and Ethnicity - CDC']/

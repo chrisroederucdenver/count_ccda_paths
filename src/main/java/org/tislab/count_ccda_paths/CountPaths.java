@@ -24,6 +24,7 @@ import javax.xml.parsers.ParserConfigurationException;
 public class CountPaths {
 
 	public static void main(String[] args) {
+        System.out.println("COUNT PATHS");
 				
 	    SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 	    try {

@@ -29,7 +29,8 @@
     			   </execution>
        		</executions>
        		<configuration>
-    			<mainClass>org.tislab.count_ccda_paths.CountPaths</mainClass>	   
+    			<!--<mainClass>org.tislab.count_ccda_paths.CountPaths</mainClass>	   -->
+    			<mainClass>org.tislab.count_ccda_paths.GetData</mainClass>	   
     		</configuration>
       	   </plugin>
     </plugins>
