@@ -1,0 +1,14 @@
+
+/ClinicalDocument/recordTarget/patientRole/id/@extension
+
+/ClinicalDocument/recordTarget/patientRole/patient/birthTime/@value
+
+/ClinicalDocument/recordTarget/patientRole/patient/raceCode/@codeSystem
+/ClinicalDocument/recordTarget/patientRole/patient/raceCode/@code
+
+/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode/@codeSystem
+/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode/@code
+
+/ClinicalDocument/recordTarget/patientRole/patient/administrativeGenderCode/@codeSystem
+/ClinicalDocument/recordTarget/patientRole/patient/administrativeGenderCode/@code
+

@@ -3,6 +3,8 @@ package org.tislab.count_ccda_paths;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.time.Instant;
+import java.time.Duration;
 
 
 import java.io.File;
@@ -10,6 +12,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
+import java.io.PrintWriter;
+import java.io.FileWriter;
 
 import org.w3c.dom.*;
 import org.w3c.dom.Document;
@@ -31,10 +35,11 @@ import javax.xml.xpath.XPathExpressionException;
 
 
 
-class GetData {
+public class GetData {
 	
 	//static final String paths_filename = "src/main/resources/PersonPaths.txt";
-	static String paths_filename = "PersonPaths.txt";
+	
+	static final String OUTPUT_ROOT = ".";
 	BufferedReader pathsReader=null;
 	private XPath xPath=null;
 	private Document ccdaDocument=null;
@@ -46,16 +51,20 @@ class GetData {
             "ToC_CCDA_CCD_CompGuideSample_FullXML.xml");
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
+	    Instant start = Instant.now();
+	    
+	    PrintWriter out_writer = null;
 		for (String ccda_filepath : file_list) {
-			System.out.println("GET DATA: " + ccda_filepath);
-			
 			try {
+				System.out.println("GET DATA: " + ccda_filepath);
+				String output_filepath = OUTPUT_ROOT + "/" + ccda_filepath.substring(0, ccda_filepath.length() - 4) + ".csv"; 
+				out_writer = new PrintWriter(new FileWriter(output_filepath));
+			
 				GetData gd = new GetData(ccda_filepath);
-				//gd.processPathList();
-				
-				paths_filename="ProviderPaths.txt";
-				gd.processPathList();
+				gd.processPathList("PersonPathsOMOP.txt", out_writer);				
+				//gd.processPathList("PersonPaths.txt", out_writer);
+				//gd.processPathList("ProviderPaths.txt", out_writer);
 			}
 			catch (ParserConfigurationException pce) {
 				System.err.println("parser not correctly configured." + pce);
@@ -71,8 +80,12 @@ class GetData {
 			} catch (XPathExpressionException e) {
 				System.err.println("can't use expression in the xPath the CCDA file: ");			
 				e.printStackTrace();
-			}
+			} 
+			out_writer.close();
 		}
+        Instant end = Instant.now();
+        Duration d = Duration.between(start, end);
+        System.out.println("duration:" + d.getSeconds() + ", " + d.getNano()/1000000);
 				
 	}
 	
@@ -108,7 +121,7 @@ class GetData {
 		return is;
 	}
 	
-	public void processPathList()
+	public void processPathList(String paths_filename, PrintWriter out_writer) 
 	throws XPathExpressionException {
 		
 		BufferedReader pathsReader = null;
@@ -123,26 +136,26 @@ class GetData {
 
 		try {
 			while (pathsReader.ready()) {
-				String s = pathsReader.readLine();
-				if (!s.equals("") && s.charAt(0) != '#') {
-					processXPath(s);
+				
+				String xPath_string = pathsReader.readLine();
+				System.out.print("xPath expression: \"" + xPath_string + "\"");				
+				if (!xPath_string.equals("") && xPath_string.charAt(0) != '#') {
+					XPathExpression expr = xPath.compile(xPath_string);
+					String value = expr.evaluate(ccdaDocument);
+					if (!value.equals("")) {
+						System.out.println("   value: \"" + value + "\"");					
+						out_writer.print(value + ", ");		
+					}
 				}
 			}
+			out_writer.println();
 		}
 		catch (IOException x) {
 				System.out.println("can't read " + x);
 		}
 	}
 	
-	public void processXPath(String xPath_expression_string) 
-	throws XPathExpressionException{
-		System.out.print("xPath expression: \"" + xPath_expression_string + "\"");
-		XPathExpression expr = xPath.compile(xPath_expression_string);
 
-		String nodeList = expr.evaluate(ccdaDocument); 
-		System.out.println("   value: \"" + nodeList + "\"");
-	}
-	
 	
 }
 
