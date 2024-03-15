@@ -16,6 +16,9 @@ Use a SAX parser to get events from an XML file and count them.  Can also do so 
 ## Run
 - from eclipse...
 - from command line with Maven: mvn clean compile exec:java
+  - This will run the class specified in the pom.xml file.
+  - You can specify it too: mvn exec:java -Dexec.mainClass="org.tislab.count_ccda_paths.GetData"
+  - or  Maven: mvn exec:java -Dexec.mainClass="org.tislab.count_ccda_paths.CountPaths"
 - Each run generates an output file for each input file listed below, with the same name and ".out" appended.
   
 
