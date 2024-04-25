@@ -12,8 +12,10 @@
        		<groupId>org.apache.maven.plugins</groupId>
        		<artifactId>maven-compiler-plugin</artifactId>
        		<configuration>
-                <source>21</source>
-                <target>21</target>
+                <!--<source>21</source>
+                <target>21</target> -->
+                <source>11</source>
+                <target>11</target>
        		</configuration>
           </plugin>
 
@@ -29,8 +31,8 @@
     			   </execution>
        		</executions>
        		<configuration>
-    			<!--<mainClass>org.tislab.count_ccda_paths.CountPaths</mainClass>	   -->
-    			<mainClass>org.tislab.count_ccda_paths.GetData</mainClass>	   
+    			<mainClass>org.tislab.count_ccda_paths.CountPaths</mainClass>
+<!--	    			<mainClass>org.tislab.count_ccda_paths.GetData</mainClass>	    -->
     		</configuration>
       	   </plugin>
     </plugins>

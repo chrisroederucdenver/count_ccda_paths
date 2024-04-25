@@ -49,6 +49,13 @@ public class GetData {
             "CCDA_CCD_b1_InPatient_v2.xml",
             "Inpatient_Encounter_Discharged_to_Rehab_Location(C-CDA2.1).xml",
             "ToC_CCDA_CCD_CompGuideSample_FullXML.xml");
+    
+    private static final List<String> tables_list = Arrays.asList(
+    		"PersonPathsOMOP.txt",
+    		"ProviderPathsOMOP.txt",
+    		"LocationPathsOMOP.txt",
+    		"CareSitePathsOMOP.txt"
+    		);
 	
 	
 	public static void main(String[] args) { 
@@ -57,14 +64,17 @@ public class GetData {
 	    PrintWriter out_writer = null;
 		for (String ccda_filepath : file_list) {
 			try {
-				System.out.println("GET DATA: " + ccda_filepath);
-				String output_filepath = OUTPUT_ROOT + "/" + ccda_filepath.substring(0, ccda_filepath.length() - 4) + ".csv"; 
-				out_writer = new PrintWriter(new FileWriter(output_filepath));
-			
 				GetData gd = new GetData(ccda_filepath);
-				gd.processPathList("PersonPathsOMOP.txt", out_writer);				
-				//gd.processPathList("PersonPaths.txt", out_writer);
-				//gd.processPathList("ProviderPaths.txt", out_writer);
+				
+				for (String table_filename : tables_list) {
+					String output_filepath = OUTPUT_ROOT + "/" 
+					    + ccda_filepath.substring(0, ccda_filepath.length() - 4)
+					    + "_"
+					    + table_filename.substring(0, table_filename.length() -4)
+					    + ".csv"; 									
+					out_writer = new PrintWriter(new FileWriter(output_filepath));
+					gd.processPathList(table_filename, out_writer);							
+				}
 			}
 			catch (ParserConfigurationException pce) {
 				System.err.println("parser not correctly configured." + pce);

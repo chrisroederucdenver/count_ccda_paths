@@ -48,13 +48,16 @@ public class CountPaths {
 	private static boolean show_attributes = true;
 	private static PrintStream out_stream = System.out;
 	private static Map<String, Integer> leafCounts = new HashMap<String, Integer>();
-	private static final List<String> file_list = Arrays.asList(
+	private static final List<String> long_file_list = Arrays.asList(
+			"CCDA_CCD_b1_InPatient_v2.xml", 
 			"test_2.xml",
 			"170.314b2_AmbulatoryToC.xml", 
 			"CCDA_CCD_b1_Ambulatory_v2.xml", 
-			"CCDA_CCD_b1_InPatient_v2.xml", 
 			"Inpatient_Encounter_Discharged_to_Rehab_Location(C-CDA2.1).xml", 
 			"ToC_CCDA_CCD_CompGuideSample_FullXML.xml");
+	private static final List<String> file_list = Arrays.asList(
+			"CCDA_CCD_b1_InPatient_v2.xml" 
+			);
 
 	// TODO  #1: how to specify the hash creation function as a lambda to make it easy to swithc them around without using interfaces etc.
     // static Function(String a, Integer b) makeKey =  (String a) -> { return a.hashCode(); };
